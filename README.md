@@ -18,7 +18,7 @@
 
 | Product                     | SOC           |  FLASH  |  PSRAM   | Link                   |
 | :------------------------: | :-----------: |:-------: | :---------: | :------------------: |
-| T-Keyboard-S3-Pro   | ESP32S3R8 |   16M   | 8M (Octal SPI) |   [Not yet sold]()  |
+| T-Keyboard-S3-Pro_V1.0   | ESP32S3R8 |   16M   | 8M (Octal SPI) |   [Not yet sold]()  |
 
 ## Directory
 - [Describe](#describe)
