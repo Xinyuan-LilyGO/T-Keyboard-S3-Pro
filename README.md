@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-09-05 17:39:55
+ * @LastEditTime: 2024-09-05 17:55:37
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -25,7 +25,7 @@
 - [Preview](#preview)
 - [Module](#module)
 - [RelatedTests](#RelatedTests)
-- [ExampleGuidance](#ExampleGuidance)
+- [SoftwareGuidance](#SoftwareGuidance)
 - [FAQ](#faq)
 - [Project](#project)
 - [Information](#information)
@@ -60,7 +60,7 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 * FLASH: 64 Kbytes
 * Others:  For more information, please visit[STMicroelectronics Official STM32G030F6 datasheet](https://www.st.com/en/microcontrollers-microprocessors/stm32g030f6.html#documentation)
 
-### 3. 屏幕
+### 3. Screen
 
 * Screen Model: N085-1212TBWIG06-C08
 * Size: 0.85-inch
@@ -81,6 +81,20 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 * Chip: WS2812C
 
 ## RelatedTests
+
+## SoftwareGuidance
+
+### 1. ESP32S3 host device software guidance
+
+| Branch | Support IDE And Version   |Description   |
+| :-----------: | :-----------: | :-----------: | 
+|[arduino-esp32-libs_V2.0.14](https://github.com/Xinyuan-LilyGO/T-Keyboard-S3-Pro/tree/arduino-esp32-libs_V2.0.14)| `[Platformio IDE (arduino-espressif32_v6.5.0)]`<br />`[Arduino IDE (arduino-esp32-lib_v2.0.14)]`   |  |
+
+### 2. STM32 Slave device software guidance
+
+| Branch | Support IDE And Version   |Description   |
+| :-----------: | :-----------: | :-----------: | 
+|[stm32cubeg0-firmware-package_V1.6.2](https://github.com/Xinyuan-LilyGO/T-Keyboard-S3-Pro/tree/stm32cubeg0-firmware-package_V1.6.2)| `[STM32CubeMX (stm32cubeg0-firmware-package_V1.6.2)]`<br />`[ARM Keil μVision5]`   |  |
 
 ## FAQ
 
