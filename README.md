@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-09-07 10:53:56
+ * @LastEditTime: 2024-09-07 13:48:25
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro_ESP32S3</h1>
@@ -28,7 +28,7 @@ Different branches have different versions of the compilation libraries, so plea
 
 ### Rendering
 
-## QuickStart
+## SoftwareDeployment
 
 ### Examples Support
 
