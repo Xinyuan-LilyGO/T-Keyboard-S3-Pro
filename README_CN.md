@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-09-07 14:45:50
+ * @LastEditTime: 2024-09-07 17:33:23
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -10,15 +10,20 @@
 ## **[English](./README.md) | 中文**
 
 ## 版本迭代:
-| Version                               | Update date                       |
-| :-------------------------------: | :-------------------------------: |
-| T-Keyboard-S3-Pro_V1.0                      | 2024-09-05                         |
+
+| Version    | Update date    | Update description  |
+| :-----------: | :-----------: | :-----------: |
+| T-Keyboard-S3-Pro_MCU_V1.1 | 2024-09-05              | Original version |
+| T-Keyboard-S3-Pro_Keyboard_V1.1| 2024-09-05        | Original version |
+| T-Keyboard-S3-Pro_Magnet_Female_V1.0| 2024-09-05        | Original version |
+| T-Keyboard-S3-Pro_Magnet_Male_V1.0| 2024-09-05        | Original version |
+| T-Keyboard-S3-Pro_Keyboard_LCD_FPC_V1.0| 2024-09-05        | Original version |
 
 ## 购买链接
 
-| Product                     | SOC           |  FLASH  |  PSRAM   | Link                   |
-| :------------------------: | :-----------: |:-------: | :---------: | :------------------: |
-| T-Keyboard-S3-Pro_V1.0   | ESP32S3R8 |   16M   | 8M (Octal SPI) |  [暂未售卖]()  |
+| Product                     |Link               |
+| :------------------------: | :-----------: |
+| T-Keyboard-S3-Pro   |   [暂未售卖]()  |
 
 ## 目录
 - [描述](#描述)
