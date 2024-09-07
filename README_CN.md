@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-09-07 10:35:44
+ * @LastEditTime: 2024-09-07 13:52:02
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -52,14 +52,14 @@
 * 芯片：ESP32-S3-R8
 * PSRAM：8M (Octal SPI)
 * FLASH：16M
-* 其他说明：更多资料请访问[乐鑫官方ESP32-S3­-WROOM­-1数据手册](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
+* 其他说明：更多资料请访问 [乐鑫官方ESP32-S3­-WROOM­-1数据手册](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 
 ### 2. 次要的MCU
 
 * 芯片：STM32G030F6P6
 * SRAM：8 Kbytes
 * FLASH：64 Kbytes
-* 其他说明：更多资料请访问[意法官方STM32G030F6数据手册](https://www.st.com/en/microcontrollers-microprocessors/stm32g030f6.html#documentation)
+* 其他说明：更多资料请访问 [意法官方STM32G030F6数据手册](https://www.st.com/en/microcontrollers-microprocessors/stm32g030f6.html#documentation)
 
 ### 3. 屏幕
 
