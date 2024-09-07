@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-09-05 18:02:38
+ * @LastEditTime: 2024-09-07 10:35:44
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -81,6 +81,9 @@
 
 * 芯片：WS2812C
 
+### 6. 旋转编码器
+
+* 描述：四脚铜顶针旋钮
 
 ## 相关测试
 

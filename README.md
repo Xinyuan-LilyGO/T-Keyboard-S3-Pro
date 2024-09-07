@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-09-05 17:55:37
+ * @LastEditTime: 2024-09-07 10:43:29
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -21,15 +21,15 @@
 | T-Keyboard-S3-Pro_V1.0   | ESP32S3R8 |   16M   | 8M (Octal SPI) |   [Not yet sold]()  |
 
 ## Directory
-- [Describe](#describe)
-- [Preview](#preview)
-- [Module](#module)
+- [Describe](#Describe)
+- [Preview](#Preview)
+- [Module](#Module)
 - [RelatedTests](#RelatedTests)
 - [SoftwareGuidance](#SoftwareGuidance)
-- [FAQ](#faq)
-- [Project](#project)
-- [Information](#information)
-- [DependentLibraries](#dependentlibraries)
+- [FAQ](#FAQ)
+- [Project](#Project)
+- [Information](#Information)
+- [DependentLibraries](#DependentLibraries)
 
 ## Describe
 
@@ -79,6 +79,10 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 ### 5. On board programmable LED lights
 
 * Chip: WS2812C
+
+### 6. Rotary encoder
+
+* Describe: Four-legged copper top pin knob
 
 ## RelatedTests
 
