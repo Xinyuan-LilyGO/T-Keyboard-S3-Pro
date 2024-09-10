@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-09-07 17:16:57
+ * @LastEditTime: 2024-09-10 17:30:37
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro_STM32G0</h1>
@@ -48,6 +48,18 @@ It's important to note that different branches have different compiler library v
 | [Slave_0x05_Original_Test_V1.0.0](./firmware/[STM32G030F6P6_Drive_0x05][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V1.0.0.hex) | Initial test file for slave device 0x05 at factory |  |
 | [Slave_0x06_Original_Test_V1.0.0](./firmware/[STM32G030F6P6_Drive_0x06][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V1.0.0.hex) | Initial test file for slave device 0x06 at factory |  |
 
+### Related Commands
+
+By default, the STM32G0 is used as a slave device to work in conjunction with the host for data exchange, thereby controlling the devices on the sub-board. They communicate using the standard IIC protocol, and the related instruction program has been written at the factory, as shown in the figure below. For detailed information, please open the following IIC register log.
+
+<p align="center" width="100%">
+    <img src="./image/1.png" alt="programming algorithm">
+</p>
+
+| Log | Description | Picture |
+| ------  | ------  | ------ |
+| [T-Keyboard-S3-Pro_STM32G0_IIC_Register_V1.0.0](./information/T-Keyboard-S3-Pro_STM32G0_IIC_Register_V1.0.0.pdf) | Original version |  |
+
 ### IDE
 
 #### STM32CubeMX
@@ -70,13 +82,13 @@ It's important to note that different branches have different compiler library v
     
 
 <p align="center" width="100%">
-    <img src="image/6.jpg" alt="programming algorithm">
+    <img src="./image/6.jpg" alt="programming algorithm">
 </p>
 
 The debugging port of STM32G0 on the board is located on the back of the "T-Keyboard-S3-Pro_Keyboard" board, as shown in the following figure.
 
 <p align="center" width="100%">
-    <img src="image/7.jpg" alt="T-Keyboard-S3-Pro_Keyboard rear debugging port">
+    <img src="./image/7.jpg" alt="T-Keyboard-S3-Pro_Keyboard rear debugging port">
 </p>
 
 4.  Open any example file with the suffix ".uvprojx" under the example directory, click "[Rebuild](./image/4.jpg)" in the menu bar to build, connect the debugger, and click "Download" to download the program.
@@ -89,13 +101,13 @@ The debugging port of STM32G0 on the board is located on the back of the "T-Keyb
     
 
 <p align="center" width="100%">
-    <img src="image/8.jpg" alt="STLINK download firmware">
+    <img src="./image/8.jpg" alt="STLINK download firmware">
 </p>
 
 The UART debugging port on the board is located on the back of the "T-Keyboard-S3-Pro\_Keyboard" board, as shown in the following figure.
 
 <p align="center" width="100%">
-    <img src="image/9.jpg" alt="T-Keyboard-S3-Pro_Keyboard rear debugging port">
+    <img src="./image/9.jpg" alt="T-Keyboard-S3-Pro_Keyboard rear debugging port">
 </p>
 
 ## PinOverview

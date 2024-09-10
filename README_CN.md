@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-09-07 17:04:50
+ * @LastEditTime: 2024-09-10 17:26:03
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro_STM32G0</h1>
@@ -48,6 +48,18 @@
 | [Slave_0x05_Original_Test_V1.0.0](./firmware/[STM32G030F6P6_Drive_0x05][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V1.0.0.hex) | 出厂时从机设备0x01的初始测试文件 |  |
 | [Slave_0x06_Original_Test_V1.0.0](./firmware/[STM32G030F6P6_Drive_0x06][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V1.0.0.hex) | 出厂时从机设备0x01的初始测试文件 |  |
 
+### 相关指令
+
+默认情况下STM32G0被作为从机设备配合主机进行数据交换，从而控制副板上的设备，他们使用标准IIC协议进行通信，出厂的时候已经写好相关指令程序如下图，详细资料请打开以下IIC寄存器日志。
+
+<p align="center" width="100%">
+    <img src="./image/1.png" alt="programming algorithm">
+</p>
+
+| Log | Description | Picture |
+| ------  | ------  | ------ |
+| [T-Keyboard-S3-Pro_STM32G0_IIC_Register_V1.0.0](./information/T-Keyboard-S3-Pro_STM32G0_IIC_Register_V1.0.0.pdf) | Original version |  |
+
 ### IDE
 
 #### STM32CubeMX
@@ -67,13 +79,13 @@
 3. 安装好使用的调试器驱动，调试器的支持类型可以在Keil的菜单栏的“[Options for](./image/5.jpg)”中的“Debug”栏中找到，此外还需要设置好“programming algorithm”如下图所示。
 
 <p align="center" width="100%">
-    <img src="image/6.jpg" alt="programming algorithm">
+    <img src="./image/6.jpg" alt="programming algorithm">
 </p>
 
 板子上的STM32G0的调试口在“T-Keyboard-S3-Pro_Keyboard”板子的背面如下图
 
 <p align="center" width="100%">
-    <img src="image/7.jpg" alt="T-Keyboard-S3-Pro_Keyboard rear debugging port">
+    <img src="./image/7.jpg" alt="T-Keyboard-S3-Pro_Keyboard rear debugging port">
 </p>
 
 4. 打开示例目录下的任意一个后缀名为“.uvprojx”的示例，点击菜单栏的“[Rebuild](./image/4.jpg)”构建并插上调试器连接好设备点击“[Download](./image/4.jpg)”下载程序
@@ -84,13 +96,13 @@
 2. 打开STM32CubeMX，选择正确的调试器，这里以STLINK为例子， 如下图红框所示配置，选择要下载的firmware文件，点击“Start Programming”开始下载。使用UART下载同理。
 
 <p align="center" width="100%">
-    <img src="image/8.jpg" alt="STLINK download firmware">
+    <img src="./image/8.jpg" alt="STLINK download firmware">
 </p>
 
 板子上的UART的调试口在“T-Keyboard-S3-Pro_Keyboard”板子的背面如下图
 
 <p align="center" width="100%">
-    <img src="image/9.jpg" alt="T-Keyboard-S3-Pro_Keyboard rear debugging port">
+    <img src="./image/9.jpg" alt="T-Keyboard-S3-Pro_Keyboard rear debugging port">
 </p>
 
 
