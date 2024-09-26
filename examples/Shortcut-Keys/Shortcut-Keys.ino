@@ -44,6 +44,11 @@ char *APP_File2_addr = "C:\\Program Files (x86)\\Tencent\\QQMusic\\QQMusic\n";
 char *APP_File3_addr = "C:\\Program Files (x86)\\360\\Total Security\\QHSafeMain\n";
 char *APP_File4_addr = "notepad\n";
 
+uint16_t *ICON_KEY1 = (uint16_t *)gImage_edge;
+uint16_t *ICON_KEY2 = (uint16_t *)gImage_qqmusic;
+uint16_t *ICON_KEY3 = (uint16_t *)gImage_360;
+uint16_t *ICON_KEY4 = (uint16_t *)gImage_note;
+
 std::vector<unsigned char> IIC_Device_ID_Registry_Scan;
 
 std::shared_ptr<Arduino_IIC_DriveBus> IIC_Bus =
@@ -348,7 +353,7 @@ void Iocn_Show(std::vector<unsigned char> device_id)
                                T_KEYBOARD_S3_PRO_WR_LCD_CS, 0B00010000); // 选定屏幕1 LCD_1
         delay(IIC_LCD_CS_DEVICE_DELAY);
     }
-    gfx->draw16bitRGBBitmap(0, 0, (uint16_t *)gImage_edge, 128, 128);
+    gfx->draw16bitRGBBitmap(0, 0, ICON_KEY1, 128, 128);
     delay(100);
 
     for (int i = 0; i < device_id.size(); i++)
@@ -357,7 +362,7 @@ void Iocn_Show(std::vector<unsigned char> device_id)
                                T_KEYBOARD_S3_PRO_WR_LCD_CS, 0B00001000); // 选定屏幕2 LCD_2
         delay(IIC_LCD_CS_DEVICE_DELAY);
     }
-    gfx->draw16bitRGBBitmap(0, 0, (uint16_t *)gImage_qqmusic, 128, 128);
+    gfx->draw16bitRGBBitmap(0, 0, ICON_KEY2, 128, 128);
     delay(100);
 
     for (int i = 0; i < device_id.size(); i++)
@@ -366,7 +371,7 @@ void Iocn_Show(std::vector<unsigned char> device_id)
                                T_KEYBOARD_S3_PRO_WR_LCD_CS, 0B00000100); // 选定屏幕3 LCD_3
         delay(IIC_LCD_CS_DEVICE_DELAY);
     }
-    gfx->draw16bitRGBBitmap(0, 0, (uint16_t *)gImage_360, 128, 128);
+    gfx->draw16bitRGBBitmap(0, 0, ICON_KEY3, 128, 128);
     delay(100);
 
     for (int i = 0; i < device_id.size(); i++)
@@ -375,7 +380,7 @@ void Iocn_Show(std::vector<unsigned char> device_id)
                                T_KEYBOARD_S3_PRO_WR_LCD_CS, 0B00000010); // 选定屏幕4 LCD_4
         delay(IIC_LCD_CS_DEVICE_DELAY);
     }
-    gfx->draw16bitRGBBitmap(0, 0, (uint16_t *)gImage_note, 128, 128);
+    gfx->draw16bitRGBBitmap(0, 0, ICON_KEY4, 128, 128);
     delay(100);
 
     for (int i = 0; i < device_id.size(); i++)

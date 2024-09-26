@@ -12,14 +12,17 @@
 
 - 1. 从github上下载开源程序，通过VScode打开文件夹，找到并打开`platformio.ini`文件，选择`default_envs = Shortcut-Keys`，其他`default_envs`全注释掉。
 
-- 2. 找到并打开`examples/Shortcut-Keys/Shortcut-Keys.cpp`
-    在/*UERS Define Local APP address on PC */注释下面找到:
+- 2. 找到并打开`examples/Shortcut-Keys/KNOB-Shortcut-Keys.cpp`
+    在`/*UERS Define Local APP address on PC */`注释下面找到:
     ```c
-    char *APP_File1_addr = "xx.exe\n";
+    char *APP_File1_addr = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\n";
+    char *APP_File2_addr = "C:\\Program Files (x86)\\Tencent\\QQMusic\\QQMusic\n";
+    char *APP_File3_addr = "C:\\Program Files (x86)\\360\\Total Security\\QHSafeMain\n";
+    char *APP_File4_addr = "notepad.exe\n";
     ```
-    其中`"xx.exe"`为电脑应用程序的文件位置。
+    其中`APP_File1_addr`和`ICON_KEY1`对应一个应用的本地文件位置和图标,如果你要替换，请替换这两个数据。
 
-- 3. 找到PC端需要打开的应用路径并复制，将替换`"xx.exe"`替换为你的本地应用路径，加`\n`即可。(找不到文件路径可以右键鼠标选择`打开所在文件位置`)
+- 3. 找到PC端需要打开的应用路径并复制，将`APP_File(x)_addr`替换为你的本地应用路径，加`\n`即可。(找不到文件路径可以右键鼠标选择`打开所在文件位置`)
     例如：
     ```c
     char *APP_File1_addr = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\n"
@@ -42,18 +45,43 @@ const unsigned char gImage_edge[32776] = {/*0X00,0X10,0X80,0X00,0X80,0X00,0X01,0
 </p>
 <a href="https://xiazai.zol.com.cn/detail/48/475031.shtml#xiazaic-topb-box-2022" title="image2lcd download">image2lcd download</a>
 
-- 2. 找到函数`void Iocn_Show(std::vector<unsigned char> device_id)`中的以下函数：
+`image2lcd`在`tool`文件夹下，自取。
+
+- 3. 在`/*UERS Define Local APP address on PC */`注释下面找到:
 ```c
-gfx->draw16bitRGBBitmap(0, 0, (uint16_t *)gImage_edge, 128, 128);
+    uint16_t *ICON_KEY1 = (uint16_t *)gImage_edge;
+    uint16_t *ICON_KEY2 = (uint16_t *)gImage_qqmusic;
+    uint16_t *ICON_KEY3 = (uint16_t *)gImage_360;
+    uint16_t *ICON_KEY4 = (uint16_t *)gImage_note;
 ```
-分别在程序的第351,60,369,378行，以更换第一个按键LCD图标举例：
 
-第三个参数`gImage_edge`:参数替换为你自己定义的图标数组名称即改变第一个按键的LCD的图标。
+请根据你的需求，将icon_16Bit.h生产的图标数组赋值到`ICON_KEY(x)`等变量中。
+   
+其中`APP_File1_addr`和`ICON_KEY1`对应一个应用的本地文件位置和图标,如果你要替换，请替换这两个数据。
 
+
+- 4. 如果你导出的图标不是`128*128`尺寸，请根据下面操作修改代码,找到下面代码：
+```c
+void Iocn_Show(std::vector<unsigned char> device_id, uint8_t Show_LCD)
+{
+    if (Show_LCD & 0x01)
+    {
+        for (int i = 0; i < device_id.size(); i++)
+        {
+            IIC_Bus->IIC_WriteC8D8(device_id[i],
+                                   T_KEYBOARD_S3_PRO_WR_LCD_CS, 0B00010000); // 选定屏幕1 LCD_1
+            delay(IIC_LCD_CS_DEVICE_DELAY);
+        }
+        gfx->draw16bitRGBBitmap(0, 0, ICON_KEY1, 128, 128);
+        delay(10);
+    }
+...
+}
+```
+以第一个key1举例，其中`gfx->draw16bitRGBBitmap(0, 0, ICON_KEY1, 128, 128);`
 第四个参数和第五个参数:显示的图标大小，这里图片大小为`128*128`，所以填写参数为`128,128`。如果你选择的图片大小为`100*100`,请将第4个和第5个参数修改为`100,100`。
 
-
-- 4. 注意：image2Lcd软件只能识别一些格式的图片，如果你的图片不适合，请通过相关软件将图片转为image2lcd能识别的格式，不能改文件后缀名，那样显示到屏幕可能会显示不正常。
+- 5. 注意：image2Lcd软件只能识别一些格式的图片，如果你的图片不适合，请通过相关软件将图片转为image2lcd能识别的格式，不能改文件后缀名，那样显示到屏幕可能会显示不正常。
 
 
 ## 软件烧录
