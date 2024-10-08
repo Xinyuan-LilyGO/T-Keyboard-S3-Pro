@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-10-08 10:12:49
+ * @LastEditTime: 2024-10-08 10:34:21
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -52,8 +52,6 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 
 #### 1. Size
 
----
-
 <p align="center" width="100%">
     <img src="image/1.jpg" alt="">
 </p>
@@ -64,11 +62,7 @@ The board also features 14 programmable RGB LED lights. When a single board is r
     <img src="image/2.jpg" alt="">
 </p>
 
----
-
 #### 2. Module Description
-
----
 
 <p align="center" width="100%">
     <img src="image/3.jpg" alt="">
@@ -79,8 +73,6 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 <p align="center" width="100%">
     <img src="image/4.jpg" alt="">
 </p>
-
----
 
 ### Rendering
 
