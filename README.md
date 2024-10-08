@@ -2,10 +2,14 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-09-07 14:45:59
+ * @LastEditTime: 2024-10-08 10:12:49
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
+
+<p align="center" width="100%">
+    <img src="image/5.jpg" alt="">
+</p>
 
 ## **English | [中文](./README_CN.md)**
 
@@ -45,6 +49,26 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 ## Preview
 
 ### PCB board
+
+#### 1. Size
+
+<p align="center" width="100%">
+    <img src="image/1.jpg" alt="">
+</p>
+
+<p align="center" width="100%">
+    <img src="image/2.jpg" alt="">
+</p>
+
+#### 2. Module Description
+
+<p align="center" width="100%">
+    <img src="image/3.jpg" alt="">
+</p>
+
+<p align="center" width="100%">
+    <img src="image/4.jpg" alt="">
+</p>
 
 ### Rendering
 
