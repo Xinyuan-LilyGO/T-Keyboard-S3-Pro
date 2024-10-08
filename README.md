@@ -52,23 +52,35 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 
 #### 1. Size
 
+---
+
 <p align="center" width="100%">
     <img src="image/1.jpg" alt="">
 </p>
+
+---
 
 <p align="center" width="100%">
     <img src="image/2.jpg" alt="">
 </p>
 
+---
+
 #### 2. Module Description
+
+---
 
 <p align="center" width="100%">
     <img src="image/3.jpg" alt="">
 </p>
 
+---
+
 <p align="center" width="100%">
     <img src="image/4.jpg" alt="">
 </p>
+
+---
 
 ### Rendering
 

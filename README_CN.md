@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-10-08 10:10:52
+ * @LastEditTime: 2024-10-08 10:32:11
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -52,23 +52,35 @@
 
 #### 1. 尺寸
 
+---
+
 <p align="center" width="100%">
     <img src="image/1.jpg" alt="">
 </p>
+
+---
 
 <p align="center" width="100%">
     <img src="image/2.jpg" alt="">
 </p>
 
+---
+
 #### 2. 模块说明
+
+---
 
 <p align="center" width="100%">
     <img src="image/3.jpg" alt="">
 </p>
 
+---
+
 <p align="center" width="100%">
     <img src="image/4.jpg" alt="">
 </p>
+
+---
 
 ### 渲染图
 
