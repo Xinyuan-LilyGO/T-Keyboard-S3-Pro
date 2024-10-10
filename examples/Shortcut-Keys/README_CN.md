@@ -43,7 +43,6 @@ const unsigned char gImage_edge[32776] = {/*0X00,0X10,0X80,0X00,0X80,0X00,0X01,0
 <p>
 <img src="/image/image2lcd.png" alt="Stanford-Alpaca" style="width: 70%; min-width: 100px; display: block; margin: auto;">    
 </p>
-<a href="https://xiazai.zol.com.cn/detail/48/475031.shtml#xiazaic-topb-box-2022" title="image2lcd download">image2lcd download</a>
 
 `image2lcd`在`tool`文件夹下，自取。
 
@@ -84,6 +83,7 @@ void Iocn_Show(std::vector<unsigned char> device_id, uint8_t Show_LCD)
 - 5. 注意：image2Lcd软件只能识别一些格式的图片，如果你的图片不适合，请通过相关软件将图片转为image2lcd能识别的格式，不能改文件后缀名，那样显示到屏幕可能会显示不正常。
 
 
+
 ## 软件烧录
 - 1. 按住T-Keyboard-S3-Pro的BOOT(旋钮)键，插入电脑USB端口后松开BOOT(旋钮)键，
 点击左下角Build按钮，![编译](/image/4.png)
@@ -91,3 +91,16 @@ void Iocn_Show(std::vector<unsigned char> device_id, uint8_t Show_LCD)
 烧录程序到T-Keyboard-S3-Pro中，等待程序烧录完成,在点击reset按键即可。
 
 - 2. 将T-Keyboard-S3-Pro连接到电脑上，电脑上会自动安装键盘驱动，打开设备管理器(快捷键：`win+x`)，打开键盘类别，显示为`HID Keyboard Device`设备，则表明T-Keyboard-S3-Pro已经被识别为键盘外设。
+
+##  Q&A   
+- 1. 如何获取应用图标的icon文件？这里有两种方法获取你的应用图标：
+    a. 在本目录下找到`tools`文件夹下的`iconViewer3.02`并打开，解压文件，根据你的电脑选择x64或x86版本，安装`iconViewer3.02`
+<img src="/image/d.png" alt="Stanford-Alpaca" style="width: 70%; min-width: 100px; display: block; margin: auto;">    
+安装好后，然后在电脑上右键点击你的应用图标，转到文件所在位置
+<img src="/image/a.png" alt="Stanford-Alpaca" style="width: 50%; min-width: 100px; display: block; margin: auto;"> 
+将找到exe文件右键属性
+<img src="/image/b.png" alt="Stanford-Alpaca" style="width: 70%; min-width: 100px; display: block; margin: auto;"> 
+在Icon栏可以看见icon图标，即可保存
+<img src="/image/c.png" alt="Stanford-Alpaca" style="width: 70%; min-width: 100px; display: block; margin: auto;"> 
+    b. 在icon网站下载对应应用的icon图标。
+    

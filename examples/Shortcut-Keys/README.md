@@ -87,3 +87,16 @@ After compiling, there is no exception, click the UPload button,![Download](/ima
 Burn the program to T-keycurt-S3-pro, wait for the program to finish burning, then click the reset button.
 
 - 2. Connect the T-Keyboard-S3-Pro to your computer, the keyboard driver will automatically be installed on your computer, and the device Manager will open (shortcut keys: `win+x`), open the Keyboard category and display 'HID Keyboard Device' device, indicating that T-Keyboard-S3-Pro has been recognized as a keyboard peripheral.
+
+##  Q&A  
+- 1. How do I get the icon file for application ICONS? There are two ways to get your app icon:
+
+        a. Locate iconViewer3.02 under the tools folder in this directory and open it, unzip the file, and install iconViewer3.02 depending on your PC's x64 or x86 version
+<img src="/image/d.png" alt="Stanford-Alpaca" style="width: 70%; min-width: 100px; display: block; margin: auto;">    
+Once installed, then right-click on your app icon on your computer and go to the location of the file
+<img src="/image/a.png" alt="Stanford-Alpaca" style="width: 50%; min-width: 100px; display: block; margin: auto;"> 
+exe file right-click property will be found
+<img src="/image/b.png" alt="Stanford-Alpaca" style="width: 70%; min-width: 100px; display: block; margin: auto;"> 
+If you can see the Icon icon in the ICON bar, you can save it
+<img src="/image/c.png" alt="Stanford-Alpaca" style="width: 70%; min-width: 100px; display: block; margin: auto;"> 
+        b. Download the icon icon of the corresponding application from the ICON website.
