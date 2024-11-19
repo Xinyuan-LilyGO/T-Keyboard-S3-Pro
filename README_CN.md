@@ -2,13 +2,17 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-10-08 10:34:05
+ * @LastEditTime: 2024-11-19 10:41:02
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
 
 <p align="center" width="100%">
     <img src="image/5.jpg" alt="">
+</p>
+
+<p align="center" width="100%">
+    <img src="image/6.jpg" alt="">
 </p>
 
 ## **[English](./README.md) | 中文**
@@ -27,7 +31,7 @@
 
 | Product                     |Link               |
 | :------------------------: | :-----------: |
-| T-Keyboard-S3-Pro   |   [暂未售卖]()  |
+| T-Keyboard-S3-Pro   |  [LILYGO Mall](https://lilygo.cc/products/t-keyboard-s3-pro?_pos=1&_sid=ab2fe5376&_ss=r) |
 
 ## 目录
 - [描述](#描述)
@@ -47,6 +51,24 @@
 板子上还带有14个可编程设置的RGB的LED灯，单板运行时候可以全部开到最亮，但是多个板子运行时不能开到最亮，因为该LED由于总数量过多，全部高亮后将发热严重，而且USB口的供电流有限，每接上一个板子5V电压的传输就会增加一部分的阻抗等种种原因，在同时接入6个设备的时候，将LED灯亮度调整为10将是一个合理的设置。
 
 ## 预览
+
+### Actual Product Image
+
+<p align="center" width="100%">
+    <img src="image/6.jpg" alt="">
+</p>
+
+---
+
+<p align="center" width="100%">
+    <img src="image/7.jpg" alt="">
+</p>
+
+---
+
+<p align="center" width="100%">
+    <img src="image/8.jpg" alt="">
+</p>
 
 ### PCB板
 

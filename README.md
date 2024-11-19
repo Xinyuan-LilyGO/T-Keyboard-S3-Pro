@@ -2,13 +2,17 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-10-08 10:34:21
+ * @LastEditTime: 2024-11-19 10:40:36
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
 
 <p align="center" width="100%">
     <img src="image/5.jpg" alt="">
+</p>
+
+<p align="center" width="100%">
+    <img src="image/6.jpg" alt="">
 </p>
 
 ## **English | [中文](./README_CN.md)**
@@ -27,7 +31,7 @@
 
 | Product                     |Link               |
 | :------------------------: | :-----------: |
-| T-Keyboard-S3-Pro   |   [Not yet sold]()  |
+| T-Keyboard-S3-Pro   |   [LILYGO Mall](https://lilygo.cc/products/t-keyboard-s3-pro?_pos=1&_sid=ab2fe5376&_ss=r)  |
 
 ## Directory
 - [Describe](#Describe)
@@ -47,6 +51,24 @@ This is an upgraded version of the T-Keyboard-S3 project named T-Keyboard-S3-Pro
 The board also features 14 programmable RGB LED lights. When a single board is running, all of these lights can be set to their maximum brightness. However, when multiple boards are running, it is not advisable to set the brightness to maximum due to the large number of LEDs. If all the LEDs were to be brightly lit, they would generate significant heat, and the USB port's power supply has a limited current. Each additional board increases the impedance in the 5V voltage transmission. As a result, adjusting the LED brightness to 10 when connecting up to 6 devices is a reasonable setting, taking into account the various constraints such as heat generation, power supply limitations, and increased impedance.
 
 ## Preview
+
+### Actual Product Image
+
+<p align="center" width="100%">
+    <img src="image/6.jpg" alt="">
+</p>
+
+---
+
+<p align="center" width="100%">
+    <img src="image/7.jpg" alt="">
+</p>
+
+---
+
+<p align="center" width="100%">
+    <img src="image/8.jpg" alt="">
+</p>
 
 ### PCB board
 
