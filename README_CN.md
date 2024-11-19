@@ -11,6 +11,8 @@
     <img src="image/5.jpg" alt="">
 </p>
 
+---
+
 <p align="center" width="100%">
     <img src="image/6.jpg" alt="">
 </p>
