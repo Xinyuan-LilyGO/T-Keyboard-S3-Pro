@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-20 10:10:17
+ * @LastEditTime: 2024-11-20 10:19:27
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro_ESP32S3</h1>
@@ -23,10 +23,6 @@ This is the software configuration branch for the T-Keyboard-S3-Pro board with E
 Different branches have different versions of the compilation libraries, so please be aware of this.
 
 ## Preview
-
-### PCB board
-
-### Rendering
 
 ## SoftwareDeployment
 

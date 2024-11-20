@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-20 10:08:04
+ * @LastEditTime: 2024-11-20 10:19:02
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro_ESP32S3</h1>
@@ -23,10 +23,6 @@
 不同分支有不同的编译库版本，这里需要注意一下。
 
 ## 预览
-
-### PCB板
-
-### 渲染图
 
 ## 软件部署
 
