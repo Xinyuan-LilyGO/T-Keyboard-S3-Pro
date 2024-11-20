@@ -42,6 +42,7 @@ Different branches have different versions of the compilation libraries, so plea
 | [Rotary_Encoder](./examples/Rotary_Encoder) |  |  |
 | [T-Keyboard-S3-Pro_IIC_Command](./examples/T-Keyboard-S3-Pro_IIC_Command) |  |  |
 | [T-Keyboard-S3-Pro_IIC_Scan](./examples/T-Keyboard-S3-Pro_IIC_Scan) |  |  |
+| [Shortcut-Keys](./examples/Shortcut-Keys) |  |  |
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |
