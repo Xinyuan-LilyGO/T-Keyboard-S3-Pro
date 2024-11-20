@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-19 10:43:42
+ * @LastEditTime: 2024-11-20 10:10:17
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro_ESP32S3</h1>
@@ -43,10 +43,12 @@ Different branches have different versions of the compilation libraries, so plea
 | [T-Keyboard-S3-Pro_IIC_Command](./examples/T-Keyboard-S3-Pro_IIC_Command) |  |  |
 | [T-Keyboard-S3-Pro_IIC_Scan](./examples/T-Keyboard-S3-Pro_IIC_Scan) |  |  |
 | [Shortcut-Keys](./examples/Shortcut-Keys) |  |  |
+| [Lvgl_UI](./examples/Lvgl_UI) |  |  |
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |
-| [Host_Original_Test_2_V1.0.0](./firmware/[ESP32S3][T-Keyboard-S3-Pro_V1.0][Original_Test_2]_firmware_V1.0.0.bin) | Initial test file for the host device upon factory output |  |
+| [Original_Test_2](./firmware/[ESP32S3][T-Keyboard-S3-Pro_V1.0][Original_Test_2]_firmware_V1.0.0.bin) | Initial test file for the host device upon factory output |  |
+| [Lvgl_UI](./firmware/[ESP32S3][T-Keyboard-S3-Pro_V1.0][Lvgl_UI]_firmware_V1.0.0.bin)  | Initial test file for the host device upon factory output |  |
 
 ### IDE
 
