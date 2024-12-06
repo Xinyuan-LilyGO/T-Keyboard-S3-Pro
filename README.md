@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-19 10:42:51
+ * @LastEditTime: 2024-12-06 18:00:13
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -106,14 +106,18 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 * Chip: ESP32-S3-R8
 * PSRAM: 8M (Octal SPI)
 * FLASH: 16M
-* Others: For more information, please visit [Espressif Official ESP32-S3-WROOM-1 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
+* Dependent Libraries:
+    >[ESP32-S3­-WROOM­-1_datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
+* Related Documentation:
+    >[Arduino_DriveBus-1.1.2](https://github.com/Xk-w/Arduino_DriveBus)
 
 ### 2. Secondary MCU
 
 * Chip: STM32G030F6P6
 * SRAM: 8 Kbytes
 * FLASH: 64 Kbytes
-* Others:  For more information, please visit [STMicroelectronics Official STM32G030F6 datasheet](https://www.st.com/en/microcontrollers-microprocessors/stm32g030f6.html#documentation)
+* Dependent Libraries:
+    >[STM32G030F6_datasheet](https://www.st.com/en/microcontrollers-microprocessors/stm32g030f6.html#documentation)
 
 ### 3. Screen
 
@@ -124,6 +128,12 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 * Driver Chip: GC9107
 * Bus Communication Protocol: Standard SPI
 * Others: The RST, DC, MOSI, SCLK, and BL pins of all screens share a common bus. During initialization and reset, all screens are reset simultaneously. By selecting different CS lines, different screens can be controlled to refresh data.
+* Related Documentation:
+    >[GC9107_DataSheet_V1.2](./information/GC9107_DataSheet_V1.2.pdf)
+* Dependent Libraries:
+    >[TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)<br /> 
+    >[lvgl-8.3.5](https://github.com/lvgl/lvgl) <br /> 
+    >[Arduino_GFX-1.3.7](https://github.com/moononournation/Arduino_GFX)<br /> 
 
 ### 4. Hot swappable button
 
@@ -134,6 +144,8 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 ### 5. On board programmable LED lights
 
 * Chip: WS2812C
+* Related Documentation:
+    >[WS2812C-2020](./information/WS2812C-2020.pdf)
 
 ### 6. Rotary encoder
 
