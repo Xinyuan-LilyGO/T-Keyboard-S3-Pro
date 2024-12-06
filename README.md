@@ -163,7 +163,7 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 
 | Branch | `[STM32CubeMX (stm32cubeg0-firmware-package_V1.6.2)]`<br />`[ARM Keil μVision5 (Keil.STM32G0xx_DFP.1.4.0.pack)]` <br /> Support  |Description   |
 | :-----------: | :-----------: | :-----------: | 
-|[stm32cubeg0-firmware-package_V1.6.2](https://github.com/Xinyuan-LilyGO/T-Keyboard-S3-Pro/tree/stm32cubeg0-firmware-package_V1.6.2)|  <p align="center"> <img src="https://img.shields.io/badge/-supported-green" alt="example" width="25%"> </p>  |  |
+|[stm32cubeg0-firmware-package_V1.6.2](https://github.com/Xinyuan-LilyGO/T-Keyboard-S3-Pro/tree/stm32cubeg0-firmware-package_V1.6.2)|  <p align="center"> <img src="https://img.shields.io/badge/-supported-green" alt="example" width="20%"> </p>  |  |
 
 ## FAQ
 

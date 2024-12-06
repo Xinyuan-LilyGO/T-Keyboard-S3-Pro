@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-12-06 17:57:20
+ * @LastEditTime: 2024-12-06 18:03:59
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -165,7 +165,7 @@
 
 | Branch | `[STM32CubeMX (stm32cubeg0-firmware-package_V1.6.2)]`<br />`[ARM Keil μVision5 (Keil.STM32G0xx_DFP.1.4.0.pack)]` <br /> Support  |Description   |
 | :-----------: | :-----------: | :-----------: | 
-|[stm32cubeg0-firmware-package_V1.6.2](https://github.com/Xinyuan-LilyGO/T-Keyboard-S3-Pro/tree/stm32cubeg0-firmware-package_V1.6.2)|  <p align="center"> <img src="https://img.shields.io/badge/-supported-green" alt="example" width="25%"> </p>  |  |
+|[stm32cubeg0-firmware-package_V1.6.2](https://github.com/Xinyuan-LilyGO/T-Keyboard-S3-Pro/tree/stm32cubeg0-firmware-package_V1.6.2)|  <p align="center"> <img src="https://img.shields.io/badge/-supported-green" alt="example" width="20%"> </p>  |  |
 
 ## 常见问题
 
