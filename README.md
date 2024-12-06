@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-12-06 18:00:13
+ * @LastEditTime: 2024-12-06 18:02:27
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -43,8 +43,6 @@
 - [SoftwareGuidance](#SoftwareGuidance)
 - [FAQ](#FAQ)
 - [Project](#Project)
-- [Information](#Information)
-- [DependentLibraries](#DependentLibraries)
 
 ## Describe
 
@@ -157,15 +155,15 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 
 ### 1. ESP32S3 host device software guidance
 
-| Branch | Support IDE And Version   |Description   |
+| Branch | `[PlatformIO (arduino-espressif32_v6.5.0)]`<br />`[Arduino IDE (arduino-esp32-lib_v2.0.14)]` <br /> Support |Description   |
 | :-----------: | :-----------: | :-----------: | 
-|[arduino-esp32-libs_V2.0.14](https://github.com/Xinyuan-LilyGO/T-Keyboard-S3-Pro/tree/arduino-esp32-libs_V2.0.14)| `[Platformio IDE (arduino-espressif32_v6.5.0)]`<br />`[Arduino IDE (arduino-esp32-lib_v2.0.14)]`   |  |
+|[arduino-esp32-libs_V2.0.14](https://github.com/Xinyuan-LilyGO/T-Keyboard-S3-Pro/tree/arduino-esp32-libs_V2.0.14)| <p align="center"> <img src="https://img.shields.io/badge/-supported-green" alt="example" width="25%"> </p> |  |
 
 ### 2. STM32 Slave device software guidance
 
-| Branch | Support IDE And Version   |Description   |
+| Branch | `[STM32CubeMX (stm32cubeg0-firmware-package_V1.6.2)]`<br />`[ARM Keil μVision5 (Keil.STM32G0xx_DFP.1.4.0.pack)]` <br /> Support  |Description   |
 | :-----------: | :-----------: | :-----------: | 
-|[stm32cubeg0-firmware-package_V1.6.2](https://github.com/Xinyuan-LilyGO/T-Keyboard-S3-Pro/tree/stm32cubeg0-firmware-package_V1.6.2)| `[STM32CubeMX (stm32cubeg0-firmware-package_V1.6.2)]`<br />`[ARM Keil μVision5 (Keil.STM32G0xx_DFP.1.4.0.pack)]`   |  |
+|[stm32cubeg0-firmware-package_V1.6.2](https://github.com/Xinyuan-LilyGO/T-Keyboard-S3-Pro/tree/stm32cubeg0-firmware-package_V1.6.2)|  <p align="center"> <img src="https://img.shields.io/badge/-supported-green" alt="example" width="25%"> </p>  |  |
 
 ## FAQ
 
@@ -180,16 +178,5 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 * [SCH_T-Keyboard-S3-Pro_Magnet_Female_V1.0](./project/SCH_T-Keyboard-S3-Pro_Magnet_Female_V1.0.pdf)
 * [SCH_T-Keyboard-S3-Pro_Magnet_Male_V1.0](./project/SCH_T-Keyboard-S3-Pro_Magnet_Male_V1.0.pdf)
 * [SCH_T-Keyboard-S3-Pro_Keyboard_LCD_FPC_V1.0](./project/SCH_T-Keyboard-S3-Pro_Keyboard_LCD_FPC_V1.0.pdf)
-
-## Information
-* [WS2812C-2020](./information/WS2812C-2020.pdf)
-* [GC9107_DataSheet_V1.2](./information/GC9107_DataSheet_V1.2.pdf)
-* [STM32G030x6x8](./information/STM32G030x6x8.pdf)
-
-## DependentLibraries
-* [Arduino_DriveBus-1.1.2](https://github.com/Xk-w/Arduino_DriveBus)
-* [Arduino_GFX-1.3.7](https://github.com/moononournation/Arduino_GFX)
-* [lvgl-8.3.5](https://github.com/lvgl/lvgl)
-* [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)
 
 
