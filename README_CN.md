@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-20 10:19:02
+ * @LastEditTime: 2024-12-06 18:09:32
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro_ESP32S3</h1>
@@ -12,7 +12,7 @@
 ## 目录
 - [描述](#描述)
 - [预览](#预览)
-- [快速开始](#软件部署)
+- [软件部署](#软件部署)
 - [引脚总览](#引脚总览)
 - [相关测试](#相关测试)
 
