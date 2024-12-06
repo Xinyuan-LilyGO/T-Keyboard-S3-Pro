@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-19 10:42:57
+ * @LastEditTime: 2024-12-06 17:22:27
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -54,7 +54,7 @@
 
 ## 预览
 
-### Actual Product Image
+### 实物图
 
 <p align="center" width="100%">
     <img src="image/6.jpg" alt="">
