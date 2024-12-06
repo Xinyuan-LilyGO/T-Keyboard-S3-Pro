@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-12-06 18:03:59
+ * @LastEditTime: 2024-12-06 18:05:19
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -118,7 +118,6 @@
 * 相关资料：
     >[STM32G030F6_datasheet](https://www.st.com/en/microcontrollers-microprocessors/stm32g030f6.html#documentation)
 
-
 ### 3. 屏幕
 
 * 屏幕型号：N085-1212TBWIG06-C08
@@ -131,7 +130,7 @@
 * 相关资料：
     >[GC9107_DataSheet_V1.2](./information/GC9107_DataSheet_V1.2.pdf)
 * 依赖库：
-    >[TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)<br /> 
+    >[TFT_eSPI-2.5.0](https://github.com/Bodmer/TFT_eSPI)<br /> 
     >[lvgl-8.3.5](https://github.com/lvgl/lvgl) <br /> 
     >[Arduino_GFX-1.3.7](https://github.com/moononournation/Arduino_GFX)<br /> 
 

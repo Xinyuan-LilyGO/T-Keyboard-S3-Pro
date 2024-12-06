@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-12-06 18:02:27
+ * @LastEditTime: 2024-12-06 18:05:53
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -129,7 +129,7 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 * Related Documentation:
     >[GC9107_DataSheet_V1.2](./information/GC9107_DataSheet_V1.2.pdf)
 * Dependent Libraries:
-    >[TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)<br /> 
+    >[TFT_eSPI-2.5.0](https://github.com/Bodmer/TFT_eSPI)<br /> 
     >[lvgl-8.3.5](https://github.com/lvgl/lvgl) <br /> 
     >[Arduino_GFX-1.3.7](https://github.com/moononournation/Arduino_GFX)<br /> 
 
