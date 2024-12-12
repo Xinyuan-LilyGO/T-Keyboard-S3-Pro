@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-09-10 17:26:03
+ * @LastEditTime: 2024-12-12 14:03:13
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro_STM32G0</h1>
