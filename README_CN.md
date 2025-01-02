@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-12-06 18:09:32
+ * @LastEditTime: 2025-01-02 18:12:51
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro_ESP32S3</h1>
@@ -39,7 +39,7 @@
 | [T-Keyboard-S3-Pro_IIC_Command](./examples/T-Keyboard-S3-Pro_IIC_Command) |  |  |
 | [T-Keyboard-S3-Pro_IIC_Scan](./examples/T-Keyboard-S3-Pro_IIC_Scan) |  |  |
 | [Shortcut-Keys](./examples/Shortcut-Keys) |  |  |
-| [Lvgl_UI](./examples/Lvgl_UI) |  |  |
+| [Lvgl_UI](./examples/Lvgl_UI) | 出厂初始测试文件 |  |
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |
