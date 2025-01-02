@@ -175,8 +175,6 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 * Q. Why can't I find any relevant example code?
 * A. The relevant examples are placed in different branches for easier management. You can select and view examples for different chips based on the branches. Specific instructions are provided in the `Software Guide`.
 
-<br />
-
 ## Project
 * [SCH_T-Keyboard-S3-Pro_MCU_V1.1](./project/SCH_T-Keyboard-S3-Pro_MCU_V1.1.pdf)
 * [SCH_T-Keyboard-S3-Pro_Keyboard_V1.1](./project/SCH_T-Keyboard-S3-Pro_Keyboard_V1.1.pdf)

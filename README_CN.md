@@ -176,8 +176,6 @@
 * Q. 为什么我找不到任何相关示例代码？
 * A. 相关示例放在不同分支内这样更易于管理，根据不同分支来选择查看不同芯片的示例，`软件引导` 中有具体说明。
 
-<br />
-
 ## 项目
 * [SCH_T-Keyboard-S3-Pro_MCU_V1.1](./project/SCH_T-Keyboard-S3-Pro_MCU_V1.1.pdf)
 * [SCH_T-Keyboard-S3-Pro_Keyboard_V1.1](./project/SCH_T-Keyboard-S3-Pro_Keyboard_V1.1.pdf)
