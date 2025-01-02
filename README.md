@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-01-02 18:08:27
+ * @LastEditTime: 2025-01-02 18:10:24
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -169,6 +169,8 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 
 * Q. After reading the above tutorials, I still don't know how to build a programming environment. What should I do?
 * A. If you still don't understand how to build an environment after reading the above tutorials, you can refer to the [LilyGo-Document](https://github.com/Xinyuan-LilyGO/LilyGo-Document) document instructions to build it.
+
+<br />
 
 * Q. Why can't I find any relevant example code?
 * A. The relevant examples are placed in different branches for easier management. You can select and view examples for different chips based on the branches. Specific instructions are provided in the `Software Guide`.

@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-01-02 18:07:59
+ * @LastEditTime: 2025-01-02 18:10:29
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -170,6 +170,8 @@
 
 * Q. 看了以上教程我还是不会搭建编程环境怎么办？
 * A. 如果看了以上教程还不懂如何搭建环境的可以参考[LilyGo-Document](https://github.com/Xinyuan-LilyGO/LilyGo-Document)文档说明来搭建。
+
+<br />
 
 * Q. 为什么我找不到任何相关示例代码？
 * A. 相关示例放在不同分支内这样更易于管理，根据不同分支来选择查看不同芯片的示例，`软件引导` 中有具体说明。
