@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-12-12 14:03:13
+ * @LastEditTime: 2025-01-23 18:12:42
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro_STM32G0</h1>
@@ -41,12 +41,12 @@
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |
-| [Slave_0x01_Original_Test_V1.0.0](./firmware/[STM32G030F6P6_Drive_0x01][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V1.0.0.hex) | 出厂时从机设备0x01的初始测试文件 |  |
-| [Slave_0x02_Original_Test_V1.0.0](./firmware/[STM32G030F6P6_Drive_0x02][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V1.0.0.hex) | 出厂时从机设备0x01的初始测试文件 |  |
-| [Slave_0x03_Original_Test_V1.0.0](./firmware/[STM32G030F6P6_Drive_0x03][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V1.0.0.hex) | 出厂时从机设备0x01的初始测试文件 |  |
-| [Slave_0x04_Original_Test_V1.0.0](./firmware/[STM32G030F6P6_Drive_0x04][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V1.0.0.hex) | 出厂时从机设备0x01的初始测试文件 |  |
-| [Slave_0x05_Original_Test_V1.0.0](./firmware/[STM32G030F6P6_Drive_0x05][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V1.0.0.hex) | 出厂时从机设备0x01的初始测试文件 |  |
-| [Slave_0x06_Original_Test_V1.0.0](./firmware/[STM32G030F6P6_Drive_0x06][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V1.0.0.hex) | 出厂时从机设备0x01的初始测试文件 |  |
+| [Slave_0x01_Original_Test_V1.0.0](./firmware/（修复LED的HUE值设置失败问题）[STM32G030F6P6_Drive_0x01][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V2_202501231722.hex) | 出厂时从机设备0x01的初始测试文件 |  |
+| [Slave_0x02_Original_Test_V1.0.0](./firmware/（修复LED的HUE值设置失败问题）[STM32G030F6P6_Drive_0x02][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V2_202501231722.hex) | 出厂时从机设备0x01的初始测试文件 |  |
+| [Slave_0x03_Original_Test_V1.0.0](./firmware/（修复LED的HUE值设置失败问题）[STM32G030F6P6_Drive_0x03][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V2_202501231722.hex) | 出厂时从机设备0x01的初始测试文件 |  |
+| [Slave_0x04_Original_Test_V1.0.0](./firmware/（修复LED的HUE值设置失败问题）[STM32G030F6P6_Drive_0x04][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V2_202501231722.hex) | 出厂时从机设备0x01的初始测试文件 |  |
+| [Slave_0x05_Original_Test_V1.0.0](./firmware/（修复LED的HUE值设置失败问题）[STM32G030F6P6_Drive_0x05][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V2_202501231722.hex) | 出厂时从机设备0x01的初始测试文件 |  |
+| [Slave_0x06_Original_Test_V1.0.0](./firmware/（修复LED的HUE值设置失败问题）[STM32G030F6P6_Drive_0x06][T-Keyboard-S3-Pro_V1.0][Original_Test]_firmware_V2_202501231722.hex) | 出厂时从机设备0x01的初始测试文件 |  |
 
 ### 相关指令
 
