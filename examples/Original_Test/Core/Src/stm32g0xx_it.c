@@ -395,7 +395,7 @@ void HAL_I2C_AddrCallback(I2C_HandleTypeDef *hi2c, uint8_t TransferDirection, ui
                 IIC_Slave_Send_Struct.Data = My_Device.KEY_Trigger_Number;
                 break;
             case 0x10: // 读取固件版本号
-                IIC_Slave_Send_Struct.Data = 0x01;
+                IIC_Slave_Send_Struct.Data = 0x02;
                 break;
 
             default:
