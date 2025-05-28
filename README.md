@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-01-02 18:13:23
+ * @LastEditTime: 2025-05-28 11:31:05
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro_ESP32S3</h1>
@@ -128,6 +128,7 @@ Different branches have different versions of the compilation libraries, so plea
 | :------------------: | :------------------:|
 | KNOB_DATA_A         | IO4       |
 | KNOB_DATA_B         | IO5       |
+| KNOB_DATA_KEY         | IO0       |
 
 
 ## RelatedTests
