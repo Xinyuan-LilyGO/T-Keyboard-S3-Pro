@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-01-02 18:10:24
+ * @LastEditTime: 2025-08-25 15:52:04
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro</h1>
@@ -107,7 +107,7 @@ The board also features 14 programmable RGB LED lights. When a single board is r
 * Dependent Libraries:
     >[ESP32-S3­-WROOM­-1_datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 * Related Documentation:
-    >[Arduino_DriveBus-1.1.2](https://github.com/Xk-w/Arduino_DriveBus)
+    >[Arduino_DriveBus-1.1.16]()
 
 ### 2. Secondary MCU
 

@@ -107,7 +107,7 @@
 * 相关资料：
     >[ESP32-S3­-WROOM­-1_datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 * 依赖库：
-    >[Arduino_DriveBus-1.1.2](https://github.com/Xk-w/Arduino_DriveBus)
+    >[Arduino_DriveBus-1.1.16]()
 
 
 ### 2. 次要的MCU
