@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-05-28 11:31:05
+ * @LastEditTime: 2025-09-06 17:15:32
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3-Pro_ESP32S3</h1>
@@ -83,7 +83,7 @@ Different branches have different versions of the compilation libraries, so plea
 | Flash Mode                         | QIO 80MHz                         |
 | Flash Size                           | 16MB (128Mb)                    |
 | Core Debug Level                | None                                 |
-| Partition Scheme                | 16M Flash (3MB APP/9.9MB FATFS) |
+| Partition Scheme                | Default (6.25MB APP/3.43MB SPIFFS) |
 | PSRAM                                | OPI PSRAM                         |
 | Arduino Runs On                  | Core 1                               |
 | Events Run On                     | Core 1                               |           
