@@ -66,10 +66,11 @@ std::vector<unsigned char> IIC_Device_ID_Registry;
 Arduino_DataBus *bus = new Arduino_HWSPI(
     LCD_DC /* DC */, -1 /* CS */, LCD_SCLK /* SCK */, LCD_MOSI /* MOSI */, -1 /* MISO */);
 
-Arduino_GFX *gfx = new Arduino_GC9107(
-    bus, -1 /* RST */, 0 /* rotation */, true /* IPS */,
+Arduino_GFX *gfx = new T_KEYBOARD_S3_PRO_LCD_CLASS(
+    bus, -1 /* RST */, 0 /* rotation */, T_KEYBOARD_S3_PRO_LCD_IPS /* IPS */,
     LCD_WIDTH /* width */, LCD_HEIGHT /* height */,
-    2 /* col offset 1 */, 1 /* row offset 1 */, 0 /* col_offset2 */, 0 /* row_offset2 */);
+    T_KEYBOARD_S3_PRO_LCD_COL_OFFSET_1 /* col offset 1 */, T_KEYBOARD_S3_PRO_LCD_ROW_OFFSET_1 /* row offset 1 */,
+    T_KEYBOARD_S3_PRO_LCD_COL_OFFSET_2 /* col offset 2 */, T_KEYBOARD_S3_PRO_LCD_ROW_OFFSET_2 /* row offset 2 */);
 
 void KNOB_Logical_Scan_Loop(void)
 {

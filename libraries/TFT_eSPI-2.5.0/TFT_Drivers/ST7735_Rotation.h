@@ -130,3 +130,14 @@
       _height = _init_width;
       break;
   }
+
+#ifdef T_KEYBOARD_S3_PRO_ST7735_INIT
+  // Match Arduino_GFX offsets, including the axis swap for landscape rotations.
+  if (rotation & 1) {
+    colstart = T_KEYBOARD_S3_PRO_LCD_ROW_OFFSET_1;
+    rowstart = T_KEYBOARD_S3_PRO_LCD_COL_OFFSET_1;
+  } else {
+    colstart = T_KEYBOARD_S3_PRO_LCD_COL_OFFSET_1;
+    rowstart = T_KEYBOARD_S3_PRO_LCD_ROW_OFFSET_1;
+  }
+#endif

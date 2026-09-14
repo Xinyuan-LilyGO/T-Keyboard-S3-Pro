@@ -7,23 +7,20 @@
  * @LastEditTime: 2024-01-11 16:59:55
  * @License: GPL 3.0
  */
-// ESP32_C3_Air101_Expansion_LCD_80X160 Configuration
+// T-Keyboard-S3-Pro: share the driver selection with Arduino_GFX examples.
+#include "../../common/pin_config.h"
 #define USER_SETUP_ID 303
-
 #define ST7735_DRIVER
+#define TFT_WIDTH LCD_WIDTH
+#define TFT_HEIGHT LCD_HEIGHT
 
-#define TFT_WIDTH 128
-#define TFT_HEIGHT 128
-
-// #define ST7735_INITB
-// #define ST7735_GREENTAB
+#if T_KEYBOARD_S3_PRO_LCD_DRIVER == T_KEYBOARD_S3_PRO_LCD_DRIVER_GC9107
+// Preserve the original GC9107-compatible TFT_eSPI setup.
 #define ST7735_GREENTAB2
-// #define ST7735_GREENTAB3
-// #define ST7735_GREENTAB128    // For 128 x 128 display
-// #define ST7735_GREENTAB160x80 // For 160 x 80 display (BGR, inverted, 26 offset)
-// #define ST7735_REDTAB
-// #define ST7735_BLACKTAB
-// #define ST7735_REDTAB160x80   // For 160 x 80 display with 24 pixel offset
+#elif T_KEYBOARD_S3_PRO_LCD_DRIVER == T_KEYBOARD_S3_PRO_LCD_DRIVER_ST7735
+#define T_KEYBOARD_S3_PRO_ST7735_INIT
+#define CGRAM_OFFSET
+#endif
 
 // #define TFT_RGB_ORDER TFT_RGB  // Colour order Red-Green-Blue
 #define TFT_RGB_ORDER TFT_BGR // Colour order Blue-Green-Red
@@ -31,11 +28,11 @@
 #define TFT_INVERSION_ON
 // #define TFT_INVERSION_OFF
 
-// ESP32_C3_Air101_Expansion_LCD_80X160 Pin configuration
+// LCD chip select and reset are managed by the keyboard initialization code.
 #define TFT_MISO -1
-#define TFT_MOSI 40
-#define TFT_SCLK 41
-#define TFT_DC 39 // Data Command control pin
+#define TFT_MOSI LCD_MOSI
+#define TFT_SCLK LCD_SCLK
+#define TFT_DC LCD_DC // Data Command control pin
 #define TFT_RST -1 // Reset pin (could connect to RST pin)
 #define TFT_BL -1 // LED back-light
 

@@ -7,6 +7,105 @@
 // See ILI9341_Setup.h file for an alternative simpler format
 
 {
+#ifdef T_KEYBOARD_S3_PRO_ST7735_INIT
+  writecommand(ST7735_SLPOUT);
+  delay(120);
+
+  writecommand(ST7735_FRMCTR1);
+  writedata(0x05);
+  writedata(0x3C);
+  writedata(0x3C);
+
+  writecommand(ST7735_FRMCTR2);
+  writedata(0x05);
+  writedata(0x3C);
+  writedata(0x3C);
+
+  writecommand(ST7735_FRMCTR3);
+  writedata(0x05);
+  writedata(0x3C);
+  writedata(0x3C);
+  writedata(0x05);
+  writedata(0x3C);
+  writedata(0x3C);
+
+  writecommand(ST7735_INVCTR);
+  writedata(0x03);
+
+  writecommand(ST7735_PWCTR1);
+  writedata(0xA4);
+  writedata(0x04);
+  writedata(0x84);
+
+  writecommand(ST7735_PWCTR2);
+  writedata(0xC8);
+
+  writecommand(ST7735_PWCTR3);
+  writedata(0x0D);
+  writedata(0x00);
+
+  writecommand(ST7735_PWCTR4);
+  writedata(0x8D);
+  writedata(0x2A);
+
+  writecommand(ST7735_PWCTR5);
+  writedata(0x8D);
+  writedata(0xEE);
+
+  writecommand(ST7735_VMCTR1);
+  writedata(0x1D);
+
+  writecommand(ST7735_GMCTRP1);
+  writedata(0x0C);
+  writedata(0x0A);
+  writedata(0x06);
+  writedata(0x00);
+  writedata(0x1A);
+  writedata(0x11);
+  writedata(0x0B);
+  writedata(0x0A);
+  writedata(0x0B);
+  writedata(0x0C);
+  writedata(0x19);
+  writedata(0x33);
+  writedata(0x00);
+  writedata(0x06);
+  writedata(0x02);
+  writedata(0x10);
+
+  writecommand(ST7735_GMCTRN1);
+  writedata(0x0D);
+  writedata(0x0F);
+  writedata(0x03);
+  writedata(0x00);
+  writedata(0x11);
+  writedata(0x0A);
+  writedata(0x06);
+  writedata(0x08);
+  writedata(0x09);
+  writedata(0x0D);
+  writedata(0x1C);
+  writedata(0x3A);
+  writedata(0x00);
+  writedata(0x09);
+  writedata(0x07);
+  writedata(0x10);
+
+  writecommand(0x35);
+  writedata(0x00);
+
+  writecommand(ST7735_COLMOD);
+  writedata(0x05);
+
+  writecommand(ST7735_MADCTL);
+  writedata(TFT_MAD_MX | TFT_MAD_MY | TFT_MAD_COLOR_ORDER);
+
+  colstart = T_KEYBOARD_S3_PRO_LCD_COL_OFFSET_1;
+  rowstart = T_KEYBOARD_S3_PRO_LCD_ROW_OFFSET_1;
+
+  writecommand(ST7735_DISPON);
+  writecommand(ST7735_RAMWR);
+#else
 	// Initialization commands for ST7735 screens
   static const uint8_t PROGMEM
   Bcmd[] = {                  // Initialization commands for 7735B screens
@@ -215,4 +314,5 @@
 
        commandList(Rcmd3);
      }
+#endif
 }

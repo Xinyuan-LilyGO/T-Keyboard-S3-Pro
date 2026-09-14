@@ -26,6 +26,10 @@
 
 ## 软件部署
 
+### 屏幕选择
+
+在 [pin_config.h](./libraries/common/pin_config.h) 中按实际屏幕选择 GC9107（旧款屏幕）或 ST7735（新款屏幕），只启用对应的一项驱动配置。
+
 ### 示例支持
 
 | Example | Description | Picture |

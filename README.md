@@ -26,6 +26,10 @@ Different branches have different versions of the compilation libraries, so plea
 
 ## SoftwareDeployment
 
+### LCD selection
+
+Select GC9107 (original display) or ST7735 (new display) in [pin_config.h](./libraries/common/pin_config.h) to match your hardware. Enable only the corresponding driver option.
+
 ### Examples Support
 
 | Example | Description | Picture |

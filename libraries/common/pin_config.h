@@ -1,0 +1,59 @@
+/*
+ * @Description: None
+ * @Author: None
+ * @Date: 2023-08-16 14:24:03
+ * @LastEditTime: 2026-09-14 15:51:48
+ * @License: GPL 3.0
+ */
+#pragma once
+
+#define T_KEYBOARD_S3_PRO_LCD_DRIVER_GC9107 1
+#define T_KEYBOARD_S3_PRO_LCD_DRIVER_ST7735 2
+
+// LCD driver selection: uncomment one option only.
+#ifndef T_KEYBOARD_S3_PRO_LCD_DRIVER
+// #define T_KEYBOARD_S3_PRO_LCD_DRIVER T_KEYBOARD_S3_PRO_LCD_DRIVER_GC9107
+#define T_KEYBOARD_S3_PRO_LCD_DRIVER T_KEYBOARD_S3_PRO_LCD_DRIVER_ST7735
+#endif
+
+#if T_KEYBOARD_S3_PRO_LCD_DRIVER == T_KEYBOARD_S3_PRO_LCD_DRIVER_GC9107
+#define T_KEYBOARD_S3_PRO_LCD_CLASS Arduino_GC9107
+#define T_KEYBOARD_S3_PRO_LCD_IPS true
+#define T_KEYBOARD_S3_PRO_LCD_COL_OFFSET_1 2
+#define T_KEYBOARD_S3_PRO_LCD_ROW_OFFSET_1 1
+#define T_KEYBOARD_S3_PRO_LCD_COL_OFFSET_2 0
+#define T_KEYBOARD_S3_PRO_LCD_ROW_OFFSET_2 0
+#elif T_KEYBOARD_S3_PRO_LCD_DRIVER == T_KEYBOARD_S3_PRO_LCD_DRIVER_ST7735
+#define T_KEYBOARD_S3_PRO_LCD_CLASS Arduino_ST7735
+#define T_KEYBOARD_S3_PRO_LCD_IPS true
+#define T_KEYBOARD_S3_PRO_LCD_COL_OFFSET_1 2
+#define T_KEYBOARD_S3_PRO_LCD_ROW_OFFSET_1 3
+#define T_KEYBOARD_S3_PRO_LCD_COL_OFFSET_2 2
+#define T_KEYBOARD_S3_PRO_LCD_ROW_OFFSET_2 3
+#else
+#error "Unsupported T-Keyboard-S3-Pro LCD driver selection"
+#endif
+
+// IIC
+#define IIC_SDA 42
+#define IIC_SCL 2
+
+// IIC 2
+#define IIC_SDA_2 6
+#define IIC_SCL_2 7
+
+// N085-1212TBWIG06-C08
+#define LCD_WIDTH 128
+#define LCD_HEIGHT 128
+#define LCD_MOSI 40
+#define LCD_SCLK 41
+#define LCD_DC 39
+#define LCD_RST 38
+#define LCD_BL 1
+
+// Rotary Encoder
+#define KNOB_DATA_A 4
+#define KNOB_DATA_B 5
+
+
+

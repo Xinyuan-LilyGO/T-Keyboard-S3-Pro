@@ -23,7 +23,6 @@
  * @License: GPL 3.0
  */
 #include "lvgl.h"
-#include "Arduino_GFX_Library.h"
 #include "pin_config.h"
 #include "gui_guider.h"
 #include "events_init.h"
@@ -85,15 +84,7 @@ static lv_disp_drv_t disp_drv;
 static uint32_t screenWidth = LCD_WIDTH;   // screenWidth
 static uint32_t screenHeight = LCD_HEIGHT; // screenHeight
 
-// Arduino_DataBus *bus = new Arduino_HWSPI(
-//     LCD_DC /* DC */, -1 /* CS */, LCD_SCLK /* SCK */, LCD_MOSI /* MOSI */, -1 /* MISO */);
-
-// Arduino_GFX *gfx = new Arduino_GC9107(
-//     bus, -1 /* RST */, 0 /* rotation */, true /* IPS */,
-//     LCD_WIDTH /* width */, LCD_HEIGHT /* height */,
-//     2 /* col offset 1 */, 1 /* row offset 1 */, 0 /* col_offset2 */, 0 /* row_offset2 */);
-
-// TFT
+// TFT_eSPI uses the LCD driver selected in common/pin_config.h.
 TFT_eSPI *tft = new TFT_eSPI(screenWidth, screenHeight);
 
 lv_ui guider_ui;
@@ -299,13 +290,6 @@ void LCD_Initialization(std::vector<unsigned char> device_ID)
     // 未初始化屏幕，屏幕将不受控制
     // 外挂多个设备SPI速率只能在10MHz以下否则屏幕数据会显示不全
     // 在添加其他设备屏幕的时候也需要重新初始化一遍
-    // tft
-    // tft->begin(10000000);
-    // tft->fillScreen(BLACK);
-
-    // gfx->begin(6000000);
-    // gfx->fillScreen(BLACK);
-
     tft->begin();
     tft->fillScreen(TFT_BLACK);
     delay(100);
@@ -1444,24 +1428,10 @@ void my_disp_flush(lv_disp_drv_t *disp, const lv_area_t *area, lv_color_t *color
     uint32_t w = (area->x2 - area->x1 + 1);
     uint32_t h = (area->y2 - area->y1 + 1);
 
-    // GFX
-#if (LV_COLOR_16_SWAP != 0)
-    // gfx->draw16bitBeRGBBitmap(area->x1, area->y1, (uint16_t *)&color_p->full, w, h);
-#else
-    // gfx->draw16bitRGBBitmap(area->x1, area->y1, (uint16_t *)&color_p->full, w, h);
-
-    // TFT
     tft->startWrite();
     tft->setAddrWindow(area->x1, area->y1, w, h);
-    tft->pushColors((uint16_t *)&color_p->full, w * h, true);
+    tft->pushColors((uint16_t *)&color_p->full, w * h, LV_COLOR_16_SWAP == 0);
     tft->endWrite();
-#endif
-
-    // TFT
-    // tft->startWrite();
-    // tft->setAddrWindow(area->x1, area->y1, w, h);
-    // tft->pushColors((uint16_t *)&color_p->full, w * h, true);
-    // tft->endWrite();
 
     lv_disp_flush_ready(disp);
 }
